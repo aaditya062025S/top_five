@@ -1,22 +1,27 @@
-# Top Five
+# CI/CD Experience
 
-This is a preliminary version of a social media platform called Top Five. The primary function of this website is for users to create posts listing their top five favorite items for a specific category. 
+## Team Member(s)
+- Aaditya Arora
 
-## Class Activity
-For class, please complete the following activity (you may work individually or with a partner/small group): 
-1. Fork this repository from the course repository
-2. Complete the Quickstart Guide for GitHub Actions to add a project build to your forked repository: https://docs.github.com/en/actions/writing-workflows/quickstart
-3. Add a custom behavior to work GitHub Action workflow.
-4. Make at least four changes (as time allows) to the repository
-  * One must be adding you/your teams’ first and last names to the README file.
-  * One must be adding a new file describing you/your team’s prior CI/CD experience.
-  * Other suggestions to add: UI updates, tests, code improvements, additional functionality, questions about the lecture, etc. (please disclose AI usage)
-5. Submit the link to forked repository on Canvas. Complete whatever you finish by the end of class today.
+## Prior CI/CD Experience
 
-## Run Program
+### Tools Used Before This Class
+- **GitHub Actions** – Limited exposure prior to this course. Learned the basics 
+  through the quickstart guide in this activity.
+- **General CI/CD Knowledge** – Familiar with the concept of automating builds 
+  and tests when code is pushed to a repository.
 
-To run the project locally, please use the following commands in your terminal (requires Python installation):
+### What I Learned in This Activity
+- How to create a `.github/workflows/` directory and define a workflow in YAML
+- How to trigger a workflow automatically on a `push` event
+- How to set up Python, install dependencies, and run steps inside a GitHub runner
+- How to view workflow run logs in the Actions tab
 
-* pip install -r requirements.txt
-* python app.py
-* Open browser and visit http://127.0.0.1:5000/ (or designated link provided)
+### Challenges Faced
+- Understanding the YAML indentation and syntax at first
+- Figuring out how to add a custom step to the workflow
+
+### What I Would Explore Next
+- Adding automated tests to the workflow using `pytest`
+- Setting up deployment automation (e.g., deploy to a cloud service on merge)
+- Using workflow secrets to store sensitive credentials safely
